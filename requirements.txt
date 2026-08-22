@@ -1,0 +1,13 @@
+# Dependencies for the QuantitativeResearchMethods notebooks.
+# Install with:  pip install -r requirements.txt
+# Versions are minimums, matching an environment where everything is verified to run.
+
+# Jupyter itself (kernel, notebook interface, interactive buttons)
+notebook>=7.0
+ipywidgets>=8.1
+
+# Scientific stack
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.2      # chord-tension-experiment
+scipy>=1.13      # chord-tension-experiment (statistical tests)
